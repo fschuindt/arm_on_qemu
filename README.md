@@ -23,6 +23,8 @@ $ ./boot.sh
 
 This will boot Raspbian on QEMU.
 
+![raspbian](https://i.postimg.cc/y6cr0bgv/image.png)
+
 ### Mounting a host path
 Once you're inside Raspbian, choose a destination path at the guest to mount it.  
 Eg.: `/destination/path`
