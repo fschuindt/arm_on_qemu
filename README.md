@@ -27,16 +27,16 @@ This will boot Raspbian on QEMU.
 
 ### Mounting a host path
 Once you're inside Raspbian, choose a destination path at the guest to mount it.  
-Eg.: `/destination/path`
+Eg.: `/home/pi/host`
 
 Create it:
 ```bash
-$ sudo mkdir /destination/path
+~$ mkdir host
 ```
 
 And add the following entry to the `/etc/fstab` file:
 ```
-host0   /destination/path    9p      trans=virtio,version=9p2000.L   0 0
+host0   /home/pi/host    9p      trans=virtio,version=9p2000.L   0 0
 ```
 
 Then reload the fstab:
