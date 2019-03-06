@@ -5,7 +5,7 @@ Thanks to [wimvanderbauwhede](https://github.com/wimvanderbauwhede) and his wiki
 
 ## Features
 - SSH connection.
-- Read/Write bi-direcional path mounting.
+- Read/Write bidirectional path mounting.
 
 ## Requirements
 - Download the [Raspbian Stretch Lite](https://downloads.raspberrypi.org/raspbian_lite_latest) image and extract it to this repository root path.
@@ -44,4 +44,3 @@ At the host:
 ```bash
 $ ssh -p 5555 pi@localhost
 ```
-
